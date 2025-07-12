@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+  import 'package:flutter/material.dart';
 
 import '../../core/components/app_back_button.dart';
 import '../../core/components/buy_now_row_button.dart';
@@ -18,7 +18,7 @@ class ProductDetailsPage extends StatelessWidget {
         leading: const AppBackButton(),
         title: const Text('Product Details'),
       ),
-      bottomNavigationBar: SafeArea(
+      bottomNavigationBar: SafeArea(              
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: AppDefaults.padding),
           child: BuyNowRow(

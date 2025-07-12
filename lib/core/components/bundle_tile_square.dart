@@ -30,7 +30,8 @@ class BundleTileSquare extends StatelessWidget {
             border: Border.all(width: 0.1, color: AppColors.placeholder),
             borderRadius: AppDefaults.borderRadius,
           ),
-          child: Column(
+          child: SingleChildScrollView(
+          child:  Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
@@ -87,6 +88,7 @@ class BundleTileSquare extends StatelessWidget {
               const SizedBox(height: 16),
             ],
           ),
+          ), 
         ),
       ),
     );

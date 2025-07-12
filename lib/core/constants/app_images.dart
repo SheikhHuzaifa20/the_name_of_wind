@@ -2,13 +2,13 @@ class AppImages {
   static const roundedLogo = 'https://i.imgur.com/9EsY2t6.png';
 
   /* <---- Homepage banner -----> */
-  static const homePageBanner = 'https://i.imgur.com/8hBIsS5.png';
+  static const homePageBanner = 'assets/images/2.webp';
 
   /* <---- Image used on unknown page -----> */
   static const illustrations404 = 'https://i.imgur.com/SGTzEiC.png';
 
   /* <---- INTRO LOGIN BACKGROUND IMAGES -----> */
-  static const introBackground1 = 'https://i.imgur.com/YQ9twZx.png';
+  static const introBackground1 = 'assets/images/1.png';
   static const introBackground2 = 'https://i.imgur.com/3hgB1or.png';
 
   /* <---- ONBOARDING IMAGES -----> */
